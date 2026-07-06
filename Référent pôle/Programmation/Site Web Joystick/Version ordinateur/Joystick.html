@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+
+        <title>Joystick BB-8</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/nipplejs/0.9.0/nipplejs.min.js"></script>
+    </head>
+
+    <body class="bloc" id="bloc">
+        <h2>BB-8 Joystick</h2>
+        <div id="joystick-container"></div>
+        <div id="output">Position: (0,0) | Angle: 0 °</div>
+
+        <script>
+            // Initialisation du joystick
+            var joystick = nipplejs.create({
+                zone: document.getElementById('joystick-container'),
+                mode: 'dynamic', // Apparition dynamique
+                color: 'orange'
+            });
+
+            // Mise à jour des valeurs
+            joystick.on('move', function (evt, data) {
+                let x = data.vector.x.toFixed(2);
+                let y = data.vector.y.toFixed(2);
+                let angle = data.angle.degree ? data.angle.degree.toFixed(2) : 0;
+                document.getElementById('output').innerHTML = `Position: (${x},${y}) | Angle: ${angle} °`;
+            });
+
+            // Réinitialisation quand le joystick est relâché
+            joystick.on('end', function () {
+                document.getElementById('output').innerHTML = `Position: (0,0) | Angle: 0 °`;
+            });
+        </script>
+    </body>
+</html>
