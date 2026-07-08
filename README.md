@@ -24,6 +24,7 @@ Team of 6, full academic year (design, build, and control from scratch).
 
 - **Hardware:** Arduino, ESP32
 - **Software:** HTML (web control interface), embedded C/C++
+- **Modeling/Simulation:** MATLAB (control system modeling and simulation, used to design and validate the closed-loop control before implementation)
 - **Tools:** VS Code, Git
 - **Skills:** Soldering, closed-loop control design
 
@@ -41,6 +42,7 @@ Phone (web interface, HTML)
 ## Key Technical Points
 
 - Designing a **closed-loop control system (asservissement)** to keep a spherical robot balanced and move it in a controlled direction using only a center-of-gravity shift + reaction wheel — no wheels/legs
+- **Modeling and simulating the control system in MATLAB** before implementing it on hardware, to validate stability and tune parameters ahead of physical testing
 - Wi-Fi communication between a phone-based web interface (ESP32) and the low-level motor control (Arduino)
 - Mechanical design constraints of a truncated-sphere form factor
 
