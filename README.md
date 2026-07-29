@@ -51,9 +51,21 @@ Phone (web interface, HTML)
 
 ## Demo
 
-<img src="Vidéo test/Tests finaux/185E5043-4E71-47ED-B296-2B2D27AF0956_1_105_c.jpeg" alt="Picture of the robot" width="300">
+<table border="0" style="border-collapse: collapse; border: none;">
+  <tr style="border: none;">
+    <td align="center" width="50%" style="border: none;">
+      <img src="Vidéo test/Tests finaux/185E5043-4E71-47ED-B296-2B2D27AF0956_1_105_c.jpeg" alt="Picture of the robot" style="max-width: 100%;">
+      <br>
+      <sub>Picture of the robot</sub>
+    </td>
+    <td align="center" width="50%" style="border: none;">
+      <img src="Vidéo test/Tests finaux/Img0184.gif" alt="Video of the robot moving" style="max-width: 100%;">
+      <br>
+      <sub>Video of the robot moving</sub>
+    </td>
+  </tr>
+</table>
 
-<video controls src="Vidéo test/Tests finaux/Img 0184.mp4" title="Video of the robot moving"></video>
 <!-- Add photos/video of the robot moving + the web control interface -->
 
 ## Context
