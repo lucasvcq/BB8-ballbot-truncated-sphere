@@ -5,12 +5,15 @@ A truncated-sphere robot that moves by shifting its center of gravity and using 
 ## Overview
 
 The robot's shape is a truncated sphere. Movement isn't achieved with wheels or legs, but by:
+
 - **Shifting its internal center of gravity** to lean and roll in a direction
 - A **reaction/inertia wheel** to control orientation and stabilize the robot
 
 The whole system is piloted remotely via a **web interface accessible from a phone**.
 
 Team of 6, full academic year (design, build, and control from scratch).
+
+[📄 Poster](<RENDU FINAL/Blue Modern Scientific Poster (3).pdf>)
 
 ## My Role
 
@@ -30,7 +33,7 @@ Team of 6, full academic year (design, build, and control from scratch).
 
 ## Architecture
 
-```
+```text
 Phone (web interface, HTML)
         │  Wi-Fi
         ▼
@@ -47,6 +50,10 @@ Phone (web interface, HTML)
 - Mechanical design constraints of a truncated-sphere form factor
 
 ## Demo
+
+![Picture of the robot](<Vidéo test/Tests finaux/185E5043-4E71-47ED-B296-2B2D27AF0956_1_105_c.jpeg>)
+
+<video controls src="Vidéo test/Tests finaux/Img 0184.mp4" title="Video of the robot moving"></video>
 
 <!-- Add photos/video of the robot moving + the web control interface -->
 
