@@ -51,10 +51,9 @@ Phone (web interface, HTML)
 
 ## Demo
 
-![Picture of the robot](<Vidéo test/Tests finaux/185E5043-4E71-47ED-B296-2B2D27AF0956_1_105_c.jpeg>)
+<img src="Vidéo test/Tests finaux/185E5043-4E71-47ED-B296-2B2D27AF0956_1_105_c.jpeg" alt="Picture of the robot" width="300">
 
 <video controls src="Vidéo test/Tests finaux/Img 0184.mp4" title="Video of the robot moving"></video>
-
 <!-- Add photos/video of the robot moving + the web control interface -->
 
 ## Context
